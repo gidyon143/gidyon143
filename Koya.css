@@ -1,0 +1,74 @@
+.h1{
+    background : blue ;
+    margin-top:0;
+    color: white ;
+    padding :30px;  
+    text-align: center;
+}
+.video {
+    right :0;
+    bottom :0;
+    position : absolute ;
+    z-index: -3;
+}
+.div1{
+    padding: 9px;
+}
+button {
+    color: white;
+    width: 250px;
+    height: 46px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius:30px;
+    border :2px solid;
+}
+.btn1{
+    color: white;
+    background-color: #ff00dc;
+}
+.div2{
+    padding: 9px;
+}
+.btn2{
+    background-color: turquoise;
+}
+.div3{
+    padding: 9px;
+}
+.btn3{
+    background-color:thistle ;
+}
+.div4{
+    padding: 9px;
+}
+.btn4{
+    background-color: tomato;
+}
+.div5{
+    padding: 9px;
+}
+.btn5{
+    background-color: seagreen;
+}
+.div6{
+    padding: 9px;
+    
+}
+.btn6{
+    background-color: sandybrown;
+}
+.div7{
+    padding: 9px;
+}
+.btn7{
+    background-color: blueviolet;
+}
+footer{
+      color: #fff;
+      text-align: center ;
+      background: #333;
+      position: relative ;
+      font-size: 80%;
+      padding :10%;
+}
