@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+/* h1 glowing */
+.btn-background{
+    color: blue;
+}
+/* Global */
+.brand{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+/* Header **/
+header{
+  background: #95a2ff;
+  color:#ffffff;
+  padding-bottom:35px;
+  padding-left: 20px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header,a{
+  color: #ff00b2;
+  padding: 15px;
+  text-decoration:none;
+  text-transform: uppercase;
+  justify-content: space-around;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brandlk{
+  float:left;
+}
+
+header #brandlk h1{
+  margin:30pxpx;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .dur a{
+  color: #2600ff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#1100ff;
+  font-weight:bold;
+}
+/* button  */
+button{
+    color: white;
+    align-items: center;
+    width: 220px;
+    height: 35px;
+    padding: 0;
+    border-radius: 10px;
+    margin-left: 60px;
+    border: 2px solid gray;
+}
+
+.number {
+    color: red;
+    font-size: 18px;
+}
+
+.btn-1,#btn-1,.btm-1{background: green;}
+.btn-2,#btn-2,.btm-2{background: #ff1593;}
+.btn-3,#btn-3,.btm-3{background: #15fff5;}
+.btn-4,#btn-4,.btm-4{background: #fff100;}
+.btn-5,#btn-5,.btm-5{background: #26ff00;}
+.btn-6,#btn-6,.btm-6{background: #40f5ff;}
+.btn-7,#btn-7,.btm-7{background: #e3ff80;}
+.btn-8,#btn-8,.btm-8{background: #ffaaf4;}
+.btn-9,#btn-9,.btm-9{background: #cf80ff;}
+.btn-10,#btn-10,.btm-10{background: #9c95ff;}
+.btn-11,#btn-11,.btm-11{background: #dfd5ff;}
+.btn-12,#btn-12,.btm-12{background: #ff40d2;}
+.btn-13,#btn-13,.btm-13{background: #ffdc00;}
+.btn-14,#btn-14,.btm-14{background: #ffdc00;}
+.btn- ,#btn-15,.btm-15{background: #8083ff;}
+.btn- ,#btn-16,.btm-16{background: #ff15a8;}
+.btn- ,#btn-17 ,.btm-17{background: #00ff03;}
+.btn- ,#btn-18 ,.btm-18{background: #0096ff;}
+.btn- ,#btn-19 ,.btm-19{background: #bfeaff;}
+.btn- ,#btn-20 ,.btm-20{background: #00ff2d;}
+.btn- ,#btn-21 ,.btm-21{background: #ff55f1;}
+.btn- ,#btn-22 ,.btm-22{background: #d5ffbf;}
+.btn- ,#btn-23 ,.btm-23{background: #ffd26a;}
+.btn- ,#btn-24 ,.btm-24{background: #f4d5ff;}
+.btn- ,#btn-25 ,.btm-25{background:#f880ff ;}
+.btn- ,#btn-26 ,.btm-{background: #6ae0ff;}
+.btn- ,#btn-27 ,.btm-{background: #ff2bdc;}
+.btn- ,#btn-28 ,.btm-{background: #ffe740;}
+.btn- ,#btn-29 ,.btm-{background: #40e0ff;}
+.btn- ,#btn-30 ,.btm-{background: #ffd5f4;}
+.btn- ,#btn-31 ,.btm-{background: #866aff;}
+.btn- ,#btn-32 ,.btm-{background: #ce55ff;}
+.btn- ,#btn-33 ,.btm-{background: #40cbff;}
+.btn- ,#btn-34 ,.btm-{background: #ffd240;}
+.btn- ,#btn-35 ,.btm-{background: #b095ff;}
+.btn- ,#btn-36 ,.btm-{background: #90ff2b;}
+.btn- ,#btn-37 ,.btm-{background: #9a40ff;}
+.btn- ,#btn-38 ,.btm-{background: #2bffc0;}
+.btn- ,#btn-39 ,.btm-{background: #fffc95;}
+.btn- ,#btn-40 ,.btm-{background: #e355ff;}
+.btn- ,#btn-41 ,.btm-{background: #66ff2b;}
+.btn- ,#btn-42 ,.btm-{background: #dfffd5;}
+.btn- ,#btn-43 ,.btm-{background: #ffd26a;}
+.btn- ,#btn-44 ,.btm-{background: #d5f4ff;}
+.btn- ,#btn-45 ,.btm-{background: #c595ff;}
+.btn- ,#btn-46 ,.btm-{background: ;}
+.btn- ,#btn-47 ,.btm-{background: ;}
+.btn- ,#btn-48 ,.btm-{background: ;}
+.btn- ,#btn-49 ,.btm-{background: ;}
+.btn- ,#btn-50 ,.btm-{background: ;}
+.btn- ,#btn-51 ,.btm-{background: ;}
+.btn- ,#btn-52 ,.btm-{background: ;}
+.btn- ,#btn-53 ,.btm-{background: ;}
+.btn- ,#btn-54 ,.btm-{background: ;}
+.btn- ,#btn-55 ,.btm-{background: ;}
+.btn- ,#btn-56 ,.btm-{background: ;}
+.lightbox {
+      color: white;
+      display: table; 
+      position: fixed;
+      top: -100%; 
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7); 
+      transition-duration: 1s; 
+    }
+    .lightbox:target {
+      top: 0;
+    }
+    .lightbox-content {
+      display: grid;
+      place-items:center;
+      vertical-align: middle; 
+      align-items: center; 
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none;
+      color: blue;
+    }
+p{
+      max-width: 100%;
+      height: auto;
+    }
+/* @media tag */
+@media only screen and(min-width:1024px){
+    body{
+        color: green ;
+    }
+}
